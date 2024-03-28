@@ -1,4 +1,23 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash#!/bin/bash
+
+# 获取命令行参数
+inputfile=$1
+outputfile=$2
+shift 2
+keywords=$@
+
+# 如果输出文件已存在，删除它
+if [ -f $outputfile ]; then
+  rm $outputfile
+fi
+
+# 第一个功能：替换关键字行中的尖括号为方括号
+for keyword in $keywords; do
+  awk -v keyword=$keyword '/XI/ {module = $0} module ~ keyword {gsub(/</, "["); gsub(/>/, "]")} {print}' $inputfile >> $outputfile
+done
+
+# 第二个功能：删除以 ".subckt" 开头到以 ".ENDS" 开头的行
+awk '!/\.SUBCKT/,/\.ENDS/' $outputfile > temp.txt && mv temp.txt $outputfile
 
 # 获取文件路径和关键字参数
 file_path=$1
