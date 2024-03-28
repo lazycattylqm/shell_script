@@ -42,9 +42,10 @@ def process_file(input_file, output_file, keywords):
 
 # 使用示例
 keywords = ['key1', 'key2', 'module3']
+import argparse
 import os
 import re
-import argparse
+
 
 def process_file(input_file, output_file, keywords):
   script_dir = os.path.dirname(os.path.realpath(__file__))
@@ -91,4 +92,4 @@ if __name__ == "__main__":
   parser.add_argument('keywords', nargs='+', help='The keywords to be used')
   args = parser.parse_args()
 
-  process_file(args.inputfile, args.outputfile, args.keywords)process_file('test_file', 'output.txt', keywords)
+  process_file(args.inputfile, args.outputfile, args.keywords)

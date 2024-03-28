@@ -6,22 +6,43 @@
 *.FDASKFD
 
 FDASFDASIFLASDFMDAS
+.SUBCKT FDASFDASIFLASDFMDAS
+FLALA
+FDASFDAS
+FDASFDAS
+FDASFDAS
+.ENDS
 
-XI  /   word a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
+XI123  /   word a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 + a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 
-XI / key2 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
+XI222 / key2 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 + a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 
+.SUBCKT FDASFDASIFLASDFMDAS
+FLALA
+FDASFDAS
+FDASFDAS
+FDASFDAS
+.ENDS
 
-XI / key2 a<1>=b<1>
+XIbalalal / key2 a<1>=b<1>
 
-XI /   key3 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
+XIlqm /   key3 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 + a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
 
-XI /   key1 a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
-+ a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
-a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
+XId123 /   key1 afdasfda<1>=bdafdasfas<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> a<1>=b<1> 
++ a<1>=b<1> a<1>=b<1> a<1>=bfdasdfa<1> a<1>=b<1> adafdasfdas<1>=b<1> 
+a<1>=b<1> a<1>=b<1> a<1>=b<1> afdasasf<1>=b<1> a<1>=b<1> 
+
+
+.SUBCKT FDASFDASIFLASDFMDAS
+FLALA
+FDASFDAS
+FDASFDAS
+FDASFDAS
+.ENDS
+
