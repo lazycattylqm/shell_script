@@ -25,7 +25,7 @@ def process_file(input_file, output_file, keywords):
         if module_name:
           module_name = module_name.group(1)
       if module_name and module_name in keywords:
-        key_values = re.findall(r'(\w+<.*?>)=(\w+<.*?>)', line)
+        key_values = re.findall(r'(\w+<.*?>)=(\w+)', line)
         for key_value in key_values:
           key, _ = key_value
           new_key = key.replace('<', '[').replace('>', ']')+'='
